@@ -19,10 +19,10 @@
 
 		<!-- my stlyes -->
 		<link href="styles/layout.css" rel="stylesheet" type="text/css">
-		<link href="styles/styles.css" rel="stylesheet" type="text/css">
+		<link href="styles/main.css" rel="stylesheet" type="text/css">
 		
-		
-		
+		<!-- java script -->
+		<script src="myScript.js"></script>
 	</head>
 	
 	<body class ="common">
@@ -38,7 +38,7 @@
 			</div>
 			<p class="listAboutMe"> 
 				Developer &emsp;&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp; Creative Thinker &emsp;&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp; Designer </p>
-			<div class="aboutMe">
+			<div class="aboutMe" >
 				<h2> MY SKILLS</h2>
 				<ul>
 					<li>Programming: C++, Java, XML, SQL, JSON, CSS, HTM, VBA</li>
@@ -48,24 +48,28 @@
 				</ul>
 			</div>
 			
-			
-			 <section class="page-section cta backgroundColor">
-			  <div class="container">
-				<div class="row">
-				  <div class="col-xl-9 mx-auto">
-					<div class="cta-inner text-center rounded">
-					  <h2 class="section-heading mb-4">
-						<span class="section-heading-upper">A Summary of</span>
-						<span class="section-heading-lower">Who I Am</span>
-					  </h2>
-					<p>
-					I am a student at BYU where I am learning about object oriented languages such as C++ and Java. I have written many programs and an app in my time at BYU. The programs I wrote focus on minimizing complexity while maximizing efficiency with complex data structures.
-					</p>
+			<button type="button" id="button">
+			click to learn more</button>
+
+			<div id = "details">
+				 <section class="page-section cta backgroundColor">
+				  <div class="container">
+					<div class="row">
+					  <div class="col-xl-9 mx-auto">
+						<div class="cta-inner text-center rounded">
+						  <h2 class="section-heading mb-4">
+							<span class="section-heading-upper">A Summary of</span>
+							<span class="section-heading-lower">Who I Am</span>
+						  </h2>
+						<p>
+						I am a student at BYU studying Information Systems with a minor in Computer Science. Through my education I have learned about object oriented languages such as C++ and Java I have written many programs and an app in my time at BYU. The programs I wrote focus on minimizing complexity while maximizing efficiency with complex data structures. I have a passion for technology and abstract problem solving. I am an ambitious learner and I am excited to expand my portfolio.
+						</p>
+						</div>
+					  </div>
 					</div>
 				  </div>
-				</div>
-			  </div>
-			</section>
+				</section>
+			</div>
 			
 			<!-- Projects I have completed -->
 			<div class="projects">
@@ -88,21 +92,25 @@
 					<a href="otherPages/html/layout.html" title="layout">Simple Layout</a>
 					<p>Tableau has interactive data visualization products focused on business intelligence. Through this software I created visual representations of a data base.</p>
 				</div>
-				<div class="map project">
-					<h4>Interactive Family History App</h4>
-					<p>Android app built with java that used models, handlers, data access objects, adapters, activities, a client and a server</p>
-				</div>
 				<div class = "hangman project">
 					<h4>Evil Hangman</h4>
 					<p>a game that is impossible to win: created with a dynamic array to store a dictionary of words that is adjusted at runtime</p>
+					<img alt="Hangman image" src="images/hangman.png" height="100">
 				</div>
 				<div class = "spellCorrect project">
 					<h4>Spelling Corrector</h4>
 					<p>run edits on a misspelled word to find the correct spelling: implements a trie to organize a dictionary of words and count each word’s frequency</p>
+					<img alt="spelling corrector image" src="images/spelling.jpeg" height="100">
 				</div>
 				<div class="imgCorr project">
 					<h4>Image Editor</h4>
 					<p>adjusts the color value of each pixel in an image to create an overall effect such as texture map, blur effect, mirror effect, etc.</p>
+					<img alt="image edited with a negative effect" src="images/edited.jpg" height="100">
+				</div>
+				<div class="map project">
+					<h4>Interactive Family History App</h4>
+					<p>Android app built with java that used models, handlers, data access objects, adapters, activities, a client and a server</p>
+					<img alt="map image" src="images/map.png" height="100">
 				</div>
 				
 			</div>
@@ -119,28 +127,28 @@
 								<div class="awa experience">
 									<h3>Action Whitewater Adventures</h3>
 									<h4>Web Designer, Social Media Manager, Photographer</h4>	
-									<ul>
+									<ol>
 										<li>Redesigned and developed the company website to increase clarity and organization</li>
 										<li>Increased social media engagement from 60 to 600 visits per week</li>
 										<li>Broadened the customer base through focused social media marketing strategies</li>
 										<li>Documented Customer Experience with 14,000 photos</li>
-									</ul>
+									</ol>
 								</div>
 								<div class="hallo experience">
 									<h3>HaLLO</h3>
 									<h4>Advertising team </h4>
-									<ul>
+									<ol>
 										<li>Collaborated with a team of 3 English teachers to increase content quality</li>
 										<li>Created social media campaigns to increase customer volume</li>
-									</ul>
+									</ol>
 								</div>
 								<div class="ayc experience">
 									<h3>Alpine City Service Council</h3>
 									<h4>Historian, Board Memeber</h4>
-									<ul>
+									<ol>
 										<li>Attended, documented and published 72 service events</li>
 										<li>Organized 24 service activities and 3 fundraising events</li>
-									</ul>
+									</ol>
 								</div>
 							</div>
 						  </div>
