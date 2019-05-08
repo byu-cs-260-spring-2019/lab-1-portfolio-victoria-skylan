@@ -1,0 +1,93 @@
+/* the main styles */
+body {
+	font-family:Lora;
+	background: url("../images/mrbOG.jpg");
+    background-position:center;
+	background-attachment: fixed;
+    background-size: cover;
+}
+.myName {
+	color: white !important;
+}
+.main {
+	background-image: linear-gradient(to right, rgba(225,225,225,.75), rgba(225,225,225,.4));
+}
+.title {
+	background: black;
+	opacity: .8;
+}
+.subHeader {
+    color: #A16F4B  !important;
+    border-color: #A16F4B;
+    padding-top: 28px;
+    font: "Times New Roman";
+    font-size: 2rem !important;
+	text-transform: lowercase !important;
+}
+.aboutMe {
+
+}
+.listAboutMe {
+	border: 2px solid black;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.backgroundColor {
+    background-color: #000000;
+	opacity: .8;
+	margin-top: 3rem !important;
+}
+.workExperience h3 {
+	padding-left: 20px;
+	text-align: left;
+}
+.workExperience li {
+	text-align: left;
+}
+.workExperience h4 {
+	padding-left: 20px;
+	text-align: left;
+	font-size: 20px;
+}
+.workExperience section {
+	margin-bottom: 3px  !important;
+}
+.extraLinks {
+	padding-top: 20px;
+	text-align: center;
+	opacity: .8;
+}
+.project {
+	border: solid black 2px;
+	background-image: linear-gradient(to right, rgba(109,135,144,.2), rgba(109,135,144,.4));
+}
+.project a { 
+	color:#7194A6;
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: bold;
+}
+.project h4 {
+	color:#17191A;
+	font-size: 20px;
+} 
+#details {
+	display: none;
+}
+#button {
+	opacity: .8;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	padding: 15px;
+	margin-top: 3rem;
+	margin-left: 32rem;
+	border: solid 4px #205354;
+}
+.footer {
+	font-size: 11px;
+	font: bold;
+	text-align: center;
+	background: white;
+}

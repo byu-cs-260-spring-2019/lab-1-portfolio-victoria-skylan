@@ -1,0 +1,58 @@
+.common {
+	position: absolute;
+	background-color: #CCDCFF;
+}
+.topBar {
+	/* will only set two of these three horizontal attributes (left right and width)
+	and only two out of the vertical attributes (top bottom and hieght)*/
+	left: 5px;
+	right: 5px;
+	height: 35px;
+	z-index: 1;
+	background-color: #64452F ;
+	opacity: 0.75;
+}
+
+.title {
+	top: 10px;
+	bottom: 10px;
+	height: 400px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.main {
+	margin: 30px;
+	margin-top: 35px;
+	padding-bottom: 30px;
+}
+.mainbody {
+	top: 114px;
+	bottom: 64px;
+	left: 114px;
+	right: 114px;
+	padding-right: 5px;
+}
+.aboutMe {
+	margin-left: 16rem;
+	margin-top: 3rem;
+}
+.aboutMe H2 {
+	margin-left: 50px;
+}
+.project {
+	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin: 3em;
+}
+.project img {
+	padding-left: 2rem;
+}
+.footer {
+	height: 10px;
+	left: 5px;
+	right: 5px;
+	padding-bottom: 5px;
+}
